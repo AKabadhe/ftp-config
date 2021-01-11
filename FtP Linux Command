@@ -1,0 +1,21 @@
+Linux FTP comands
+-------------------
+rpm -qa |grep vsftpd
+systemctl status vsftpd
+systemctl enable vsftpd
+firewall-cmd --list-all
+  
+
+
+ #start configuration
+ ----------------------
+ mkdir /ftp-dir
+ chmod 777 /ftp   -dir
+cd /ftp-dir/
+touch file1 file2 file3
+cd 
+#
+
+Ftp installation
+-----------------
+yum install ftp -y
